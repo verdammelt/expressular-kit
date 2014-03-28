@@ -1,0 +1,20 @@
+{
+  "name": "expressular-kit",
+  "version": "0.0.0",
+  "homepage": "https://github.com/verdammelt/expressular-kit",
+  "authors": [
+    "Mark Simpson <verdammelt@gmail.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "ICS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}

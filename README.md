@@ -10,6 +10,7 @@ database as that will be dependant upon the needs of the project.
 * ~~Basic Grunt/CoffeeScript~~
 * ~~Express~~
 * ~~jasmine-node~~
+* ~~bower~~
 * angular
 * karma
 * grunt-bump
