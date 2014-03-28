@@ -1,0 +1,9 @@
+doctype html
+html(lang='en', ng-app='expressular')
+  head
+    title Expressular-Kit
+    script(src='bower_components/angular/angular.js')
+    script(src='js/app.js')
+  body
+    p(id='greeting', ng-controller="GreetingController"){{greeting}}
+    p Nothing here {{'yet' + '!'}}
