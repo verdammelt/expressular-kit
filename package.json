@@ -12,6 +12,7 @@
     "url": "https://github.com/verdammelt/expresular-kit/issues"
   },
   "scripts": {
+    "start": "./bin/serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
@@ -25,5 +26,9 @@
     "grunt-contrib-coffee": "^0.10.1",
     "grunt-coffeelint": "0.0.8",
     "load-grunt-config": "^0.8.0-beta.1"
+  },
+  "dependencies": {
+    "express": "^3.5.1",
+    "coffee-script": "^1.7.1"
   }
 }
