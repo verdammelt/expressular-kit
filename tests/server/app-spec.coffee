@@ -1,5 +1,5 @@
 request = require 'request'
-app = require '../app/app.coffee'
+app = require '../../app/app.coffee'
 
 describe "The App", ->
   port = 8888

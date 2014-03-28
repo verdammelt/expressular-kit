@@ -1,4 +1,4 @@
 module.exports =
   options:
     coffee: true
-  all: ['tests/']
+  all: ['tests/server']
