@@ -1,4 +1,4 @@
-app = require '../../app/app.coffee'
+app = require '../../app/server/app.coffee'
 
 module.exports = (grunt) ->
   grunt.registerTask 'start_server', 'Start the app', =>
