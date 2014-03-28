@@ -5,4 +5,9 @@ module.exports = (grunt) ->
     configPath: path.join(process.cwd(), 'grunt', 'config')
   )
     
-  grunt.registerTask('default', ['coffeelint', 'jasmine_node'])
+  grunt.registerTask 'default', [
+    'coffeelint',
+    'jasmine_node',
+    'protractor'
+  ]
+

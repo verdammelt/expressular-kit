@@ -1,0 +1,3 @@
+#!/bin/sh -e
+./node_modules/.bin/webdriver-manager update
+./bin/bower install -q
