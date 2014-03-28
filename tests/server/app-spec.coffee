@@ -16,7 +16,6 @@ describe "The App", ->
   it "returns pleasant message", (done) ->
     get "/",  (error, response, body) ->
       expect(response.statusCode).toBe(200)
-      expect(response.body).toContain("Hello from Coffee")
       done()
 
   it "it doesn't know about foo", (done) ->

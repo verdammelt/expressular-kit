@@ -7,7 +7,9 @@ module.exports = (grunt) ->
     
   grunt.registerTask 'default', [
     'coffeelint',
+    'coffee'
     'jasmine_node',
+    'karma',
     'end2end'
   ]
   grunt.registerTask 'end2end', [ 'start_server', 'protractor', 'stop_server' ]
