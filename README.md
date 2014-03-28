@@ -13,7 +13,7 @@ database as that will be dependant upon the needs of the project.
 * ~~bower~~
 * ~~angular~~
 * ~~grunt-bump~~
-* protractor
+* ~~protractor~~
 * karma
 * heroku deploy
 * travis CI from github
