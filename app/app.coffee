@@ -8,6 +8,8 @@ app.configure ->
 # middleware
 app.use(express.logger())
 
+app.use(express.static(__dirname + "/static"))
+
 # routes
 app.get '/', (req, res) -> res.send 'Hello Coffee'
 
