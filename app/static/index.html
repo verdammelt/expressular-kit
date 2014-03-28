@@ -1,12 +1,13 @@
 <!doctype html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="expressular">
   <head>
     <meta charset="utf-8">
     <title>My HTML File</title>
     <script src="bower_components/angular/angular.js"></script>
+    <script src="client/app
   </head>
   <body>
-    <p id="greeting">Hello from Coffee</p>
+    <p id="greeting" ng-controller="GreetingController">{{ greeting }}</p>
     <p>Nothing here {{'yet' + '!'}}</p>
   </body>
 </html>
