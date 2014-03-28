@@ -11,7 +11,8 @@ database as that will be dependant upon the needs of the project.
 * ~~Express~~
 * ~~jasmine-node~~
 * ~~bower~~
-* angular
+* ~~angular~~
+* ~~grunt-bump~~
 * karma
-* grunt-bump
 * heroku deploy
+* travic CI from github
