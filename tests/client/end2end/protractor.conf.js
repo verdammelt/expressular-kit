@@ -1,12 +1,6 @@
 exports.config = {
-  specs: [ '**/*.js' ],
+  specs: [ '**/*.coffee' ],
 
-  // ----- Capabilities to be passed to the webdriver instance ----
-  //
-  // For a full list of available capabilities, see
-  // https://code.google.com/p/selenium/wiki/DesiredCapabilities
-  // and
-  // https://code.google.com/p/selenium/source/browse/javascript/webdriver/capabilities.js
   capabilities: {
     'browserName': 'chrome'
   },
@@ -15,9 +9,11 @@ exports.config = {
 
   framework: 'jasmine',
   
+  plugins: [ 'protractor-coffee-preprocessor' ],
+
   jasmineNodeOpts: {
     onComplete: null,
-    isVerbose: false,
+    isVerbose: true,
     showColors: true,
     includeStackTrace: true,
     defaultTimeoutInterval: 30000
