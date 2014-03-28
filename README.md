@@ -8,7 +8,7 @@ database as that will be dependant upon the needs of the project.
 ## TODO
 * ~~package.json~~
 * ~~Basic Grunt/CoffeeScript~~
-* Express
+* ~~Express~~
 * nodeunit
 * angular
 * karma
