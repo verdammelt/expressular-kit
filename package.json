@@ -1,0 +1,22 @@
+{
+  "name": "expressular-kit",
+  "version": "0.0.0",
+  "description": "Starter Kit for Node-Express-Angular with CoffeeScript",
+  "main": "index.js",
+  "homepage": "https://github.com/verdammelt/expressular-kit",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/verdammelt/expressular-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/verdammelt/expresular-kit/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Mark Simpson",
+    "email": "verdammelt@gmail.com"
+  },
+  "license": "ISC"
+}
