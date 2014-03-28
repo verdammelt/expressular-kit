@@ -6,6 +6,7 @@ module.exports = (grunt) ->
   )
     
   grunt.registerTask 'default', [
+    'clean:build'
     'coffeelint',
     'coffee'
     'jasmine_node',

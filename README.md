@@ -15,7 +15,7 @@ database as that will be dependant upon the needs of the project.
 * ~~grunt-bump~~
 * ~~protractor~~
 * ~~karma~~
-* using angular coffeescript in client
+* ~~using angular coffeescript in client~~
 * heroku deploy
 * travis CI from github
 * remove protractor.conf.js (move it all into grunt config?)
