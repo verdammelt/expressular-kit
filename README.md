@@ -9,7 +9,7 @@ database as that will be dependant upon the needs of the project.
 * ~~package.json~~
 * ~~Basic Grunt/CoffeeScript~~
 * ~~Express~~
-* nodeunit
+* ~~jasmine-node~~
 * angular
 * karma
 * grunt-bump

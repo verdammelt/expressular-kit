@@ -1,3 +1,4 @@
 module.exports =
-  buildFiles: ['Gruntfile.coffee']
+  buildFiles: ['Gruntfile.coffee', 'grunt/**/*.coffee']
   app: ['app/**/*.coffee']
+  tests: ['tests/**/*.coffee']
