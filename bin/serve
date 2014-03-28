@@ -1,2 +1,2 @@
 #!/bin/sh
-./node_modules/.bin/coffee app/app.coffee
+./node_modules/.bin/coffee app/server.coffee
