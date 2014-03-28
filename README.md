@@ -13,6 +13,8 @@ database as that will be dependant upon the needs of the project.
 * ~~bower~~
 * ~~angular~~
 * ~~grunt-bump~~
+* protractor
 * karma
 * heroku deploy
-* travic CI from github
+* travis CI from github
+* remove protractor.conf.js (move it all into grunt config?)
