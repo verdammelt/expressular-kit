@@ -1,4 +1,5 @@
-express = require('express')
+express = require 'express'
+logfmt = require 'logfmt'
 app = express()
 
 # configuration
@@ -6,7 +7,7 @@ app.configure ->
   app.set 'port', process.env.PORT || 3000
 
 # middleware
-app.use(express.logger())
+app.use(logfmt.requestLogger())
 
 app.use(express.static(__dirname + "/static"))
 
