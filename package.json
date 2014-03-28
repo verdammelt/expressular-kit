@@ -18,5 +18,12 @@
     "name": "Mark Simpson",
     "email": "verdammelt@gmail.com"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-coffeelint": "0.0.8",
+    "load-grunt-config": "^0.8.0-beta.1"
+  }
 }
