@@ -7,12 +7,14 @@ app.configure ->
   app.set 'view engine', 'jade'
   app.set 'views', 'app/server/views'
 
+# rendering engine
 app.engine 'jade', require('jade').__express
 
 # middleware
 app.use(express.logger())
 
-app.use(express.static(__dirname + "/../static"))
+app.use('/static', express.static(__dirname + "/../static/bower_components"))
+app.use('/static', express.static(__dirname + "/../static"))
 
 app.get '/', (request, response) -> response.render('index')
 
