@@ -1,4 +1,5 @@
 express = require('express')
+logfmt = require('logfmt')
 app = express()
 
 path = require('path')
@@ -14,7 +15,7 @@ app.configure ->
 app.engine 'jade', require('jade').__express
 
 # middleware
-app.use express.logger()
+app.use logfmt.requestLogger()
 
 app.use '/static/js/app.js', (request, response, next) ->
   coffee = require('coffee-script')
