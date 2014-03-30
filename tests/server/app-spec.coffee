@@ -22,3 +22,8 @@ describe "The App", ->
     get "/foo", (error, response, body) ->
       expect(response.statusCode).toBe(404)
       done()
+
+  it "serves up the client side code", (done) ->
+    get "/static/js/app.js", (error, response, body) ->
+      expect(response.statusCode).toBe(200)
+      done()
