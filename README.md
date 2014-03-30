@@ -39,7 +39,7 @@ definition of the build system.
 * ~~protractor~~
 * ~~karma~~
 * ~~using angular coffeescript in client~~
-* have express compile coffeescript on the fly.
-* heroku deploy
+* ~~have express compile coffeescript on the fly.~~
+* ~~heroku deploy~~
 * travis CI from github
 * remove protractor.conf.js (move it all into grunt config?)
